@@ -6,7 +6,7 @@
 	<title>Baboon Photos</title>
 
 	<link href="{{asset('css_l/style.css')}}" rel="stylesheet">
-	<link href="color_l/default.css" rel="stylesheet">
+	<link href="{{asset('color_l/default.css')}}" rel="stylesheet">
 	<script type="text/javascript">
 
 
