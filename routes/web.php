@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('teladelogin');
 });
+
+Route::get('/tela_login', function () {
+    return view('teladelogin');
+});
