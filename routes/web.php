@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('teladelogin');
 });
 
 Route::get('/tela_login', function () {
