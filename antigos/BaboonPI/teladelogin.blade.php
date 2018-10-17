@@ -23,7 +23,7 @@
 				<div class="container">
 					<!-- Responsive navbar -->
 
-					<h1 class="brand"=>BABOON Photos</h1>
+					<h1 class="brand"=>BABOON PHOTOS</h1>
 					<!-- navegação -->
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
