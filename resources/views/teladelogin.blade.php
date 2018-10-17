@@ -1,5 +1,5 @@
 
-@extends('baselogin.base')	
+@extends('layout.baselogin')	
 	<!-- Header area -->
 @section('conteudo')
 	<section id="login" class="section green">
