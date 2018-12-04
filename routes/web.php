@@ -12,6 +12,28 @@
 */
 
 Route::get('/', function () {
-    return view('teladelogin');
+    return view('index');
 });
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('/autenticacao', function () {
+    return view('login');
+})->name('autenticacao');
+
+Route::get('/cadastro', function () {
+    return view('cadastro_usuario');
+});
+
+Route::get('/usuario', function () {
+    return view('usuario');
+})->middleware('auth');
+
+Route::get('/desconectar', function () {
+	Auth::logout();
+    return view('index');
+});
