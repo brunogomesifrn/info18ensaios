@@ -2,5 +2,5 @@
 
 <h1>Página Inicial</h1>
 
-<p>Login</p>
-<p>Cadastro</p>
+<p><a href="/autenticacao">Login</a></p>
+<p><a href="/cadastro">Cadastro</a></p>

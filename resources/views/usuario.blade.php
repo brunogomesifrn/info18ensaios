@@ -4,7 +4,7 @@
 
 <h3>Olá {{Auth::user()->name}}</h3>
 
-<p>Meus Locais</p>
+<p><a href="/espacos">Meus Locais<a/></p>
 <p>Minhas Reservas</p>
 <p>Meus dados pessoais</p>
 

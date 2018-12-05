@@ -37,3 +37,7 @@ Route::get('/desconectar', function () {
 	Auth::logout();
     return view('index');
 });
+
+Route::get('/espacos', 'EspacoControlador@index')->middleware('auth');
+Route::get('/espacos_cadastro', 'EspacoControlador@create')->middleware('auth');
+Route::post('/espacos_salvar', 'EspacoControlador@store')->middleware('auth');

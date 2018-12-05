@@ -27,7 +27,7 @@
 					<!-- navegação -->
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
-							<li><a href="telacadastro.html" target="_self">Criar nova conta</a></li>
+							<li><a href="/cadastro" target="_self">Criar nova conta</a></li>
 
 						</ul>
 					</nav>
