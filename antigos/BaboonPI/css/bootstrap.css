@@ -44,7 +44,7 @@ template {
   display: none;
 }
 a {
-  background-color: transparent;
+  
 }
 a:active,
 a:hover {
@@ -1101,8 +1101,8 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #008B8B;
-  text-decoration: none;
+  color: white;
+
 }
 a:hover,
 a:focus {
@@ -1293,6 +1293,7 @@ h6,
 }
 p {
   margin: 0 0 10px;
+  color: white;
 }
 .lead {
   margin-bottom: 20px;

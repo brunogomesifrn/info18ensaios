@@ -1,8 +1,5 @@
 <!-- Subir o layout padrão -->
 
-<p><a href="/autenticacao">Login</a></p>
-<p><a href="/cadastro">Cadastro</a></p>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -32,24 +29,13 @@
 				  <!-- //header-left -->
 		             <div class="search-box">
 						<div id="sb-search" class="sb-search">
-							<form action="#" method="post">
-								<input name="name" class="sb-search-input" placeholder="Faça sua busca" type="search" id="search">
-								<p><a href="/autenticacao">Login</a></p>
-								<p><a href="/cadastro">Cadastro</a></p>
-								<input class="sb-search-submit" type="submit" value="">
-								<span class="sb-icon-search"> </span>
-								
-							</form>
+							
+							<p><a href="/autenticacao">Login</a> <a href="/cadastro">Cadastro</a></p>
+
 						</div>
-						<!-- search-scripts -->
-						<script src="js/classie.js"></script>
-						<script src="js/uisearch.js"></script>
-							<script>
-								new UISearch( document.getElementById( 'sb-search' ) );
-							</script>
-						<!-- //search-scripts -->
-					    
+
 						
+					    
 					</div>
 				
 						<div class="clearfix"></div>

@@ -12,7 +12,7 @@ html, body{
 }
 p{
 	margin:0;
-	font-size:14px;
+	font-size:18px;
 }
 h1,h2,h3,h4,h5,h6{
 font-family: 'Ubuntu', sans-serif;
@@ -25,14 +25,7 @@ ul,label{
 body p{
 	font-family: 'Open Sans', sans-serif;
 }
-body a:hover{
-	text-decoration:none;
-	    transition: 0.5s all ease;
-    -webkit-transition: 0.5s all ease;
-    -moz-transition: 0.5s all ease;
-    -o-transition: 0.5s all ease;
-    -ms-transition: 0.5s all ease;
-}
+
 
 /*-- /tabs --*/
 .featured_section_w3l {
