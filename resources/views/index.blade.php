@@ -295,7 +295,7 @@
 			</div>
 		
 			<div class="copy-right animated wow slideInUp" >
-				<p>Baboon 2018.</p>
+				<p>W3layouts</p>
 			</div>
 		</div>
 	</div>
