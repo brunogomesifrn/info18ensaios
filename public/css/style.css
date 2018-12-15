@@ -45,7 +45,7 @@ body a:hover{
 	    padding: 15px 44px;
     font-size: 19px;
     font-weight: 400;
-   
+
     border-radius: 0;
     color: #333;
     background: none;
@@ -79,7 +79,7 @@ border-bottom: 4px solid #E16B5B!important;
 	     border: none!important;
     border-bottom: 4px solid #E16B5B!important;
 	    width: 70%;
-			 
+
 }
 .tab-image img {
     width: 100%;
@@ -93,8 +93,8 @@ border-bottom: 4px solid #E16B5B!important;
 .nav-tabs>li>a:hover, .nav>li>a:focus {
     text-decoration: none;
      background:none!important;
-    color:#008B8B!important;  
-border:none!important;	
+    color:#008B8B!important;
+border:none!important;
 	border-bottom: 4px solid #E16B5B!important;
 }
 .nav-tabs>li>a:hover, .nav>li>a:focus {
@@ -524,11 +524,11 @@ span.price1:after {
 		float: left;
 	}
 .banner-info h2 {
-    font-size: 1.2em;
-	
+    font-size: 2.0em;
+
 	}
 .banner-info h1 a {
-		font-size: 0.7em;
+		font-size: 2.0em;
 	}
 .banner-info {
 		padding: 1% 0 0 0;
@@ -554,12 +554,13 @@ span.price1:after {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height:400px!important;
+    min-height:300px!important;
+
 }
 .banner-inner-dott {
 	background:url(../images/dots.png)repeat 0px 0px;
     text-align:center;
-    padding-bottom:57px;
+    padding-bottom:450px;
 }
 /*-- header --*/
 input[type="submit"],.w3l_header_left ul li a,.related-post-right h4 a,.comments-grid-right h4 a,.reply a,.w3_single_grid_left_grid ul li a,ul.contact_info li a,.w3ls_services_bottom_grid_grid_pos,.footer-copy p a,.w3l_services_grid h4 a,.agileinfo_footer_grid ul li a,.wthree_service_breadcrumb_left ul li a{
