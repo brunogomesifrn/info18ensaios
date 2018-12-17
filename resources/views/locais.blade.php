@@ -31,8 +31,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		    <!-- /header-left -->
 		          <div class="header-left">
 				  
-					  <div class="tag"><a href="/espacos_cadastro" data-toggle="modal" data-target="#myModal1"><span class="glyphicon glyphicon-tag"></span> Cadastrar novos locais </a></div>
-					  <div class="tag"><a href="#" data-toggle="modal" data-target="#myModal2"><span class="glyphicon glyphicon-log-in"></span> Sign Up</a></div>
+					  <div class="tag"><a href="/espacos_cadastro"><span class="glyphicon glyphicon-tag"></span> Cadastrar novos locais </a></div>
+					  <div class="tag"><a href="/desconectar"><span class="glyphicon glyphicon-log-in"></span> Sign Up</a></div>
 					</div>
 				  <!-- //header-left -->
 		             <div class="search-box">
@@ -142,42 +142,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		    <div class="tips w3l">
 				<div class="container">
 				 <div class="col-md-9 tips-info">
+
+				 	@foreach($espacos as $a)
+
 					 <div class="news-grid">
 					    <div class="news-img up">
-						  <a href="single.html"> <img src="images/boulevard.jpg" alt=" " class="img-responsive"></a>
+						  <a href="single.html"> <img src="/storage/{{$a->foto}}" alt=" " class="img-responsive"></a>
 						</div>
 					    <div class="news-text coming">
-						    <h3><a href="single.html">Boulevard</a></h3>
-							<h5>Fotografia retirada no dia 22/10/2018</h5>
-							<p class="news">Natal, Rio Grande do Norte</p>
+					    	<h3><a href="single.html">{{Auth::user()->name}}</a></h3>
+						    <h3><a href="single.html">{{$a->apelido}}</a></h3>
+							<h5>{{$a->descricao}}</h5>
+							<p class="news">{{$a->endereco}}</p>
 							<h6>Dias disponiveis para reserva: Segunda à Sexta</a></h6>
-							<ul class="p-t">
+							<!--<ul class="p-t">
 							  <li><a href="single.html">Mais Photos</a></li>
 							  <li><a href="single.html">Fazer Modificações</a></li>
-							</ul>
+							</ul>-->
 					
 						</div>
 		
 						<div class="clearfix"></div>
 					 </div>	
-					  <div class="news-grid">
-					    <div class="news-img up">
-						  <a href="single.html"> <img src="images/arena.jpg" alt=" " class="img-responsive"></a>
-						</div>
-					    <div class="news-text coming">
-						    <h3><a href="single.html">Arena das Dunas</a></h3>
-							<h5>Fotografia retirada no dia 22/10/2018</h5>
-							<p class="news">Natal, Rio Grande do Norte</p>
-							<h6>Dias disponiveis para reserva: Domingos e Segundas-feiras</a></h6>
-							<ul class="p-t">
-							  <li><a href="single.html">Mais Photos</a></li>
-							  <li><a href="single.html">Fazer Modificações</a></li>
-							</ul>
-					
-						</div>
-		
-						<div class="clearfix"></div>
-					 </div>	
+
+					 @endforeach
+
+				
+
 					 
 				</div>	
 			    <div class="col-md-3 advice-right w3-agile">

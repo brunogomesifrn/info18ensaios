@@ -34,7 +34,7 @@
     @csrf
       <div class="form-group">
         <label for="nome_completo">Nome do Local:</label>
-        <input type="text" class="form-control" name="nome_completo" required>
+        <input type="text" class="form-control" name="apelido" required>
       </div>
 
       <div class="form-group">

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Espaco;
+use Auth;   
 class EspacoControlador extends Controller
 {
     /**
@@ -38,7 +39,7 @@ class EspacoControlador extends Controller
         $apelido = $request->input('apelido');
         $descricao = $request->input('descricao');
         $endereco = $request->input('endereco');
-        $foto = $request->file('foto')->store('espacos');
+        $foto = $request->file('foto')->store('locais', 'public');
 
         $espaco = new Espaco();
         $espaco->apelido = $apelido;
