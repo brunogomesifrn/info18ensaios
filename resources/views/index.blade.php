@@ -286,7 +286,7 @@
 					<h3>Contatos</h3>
 					<ul>
 						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>IFRN-Campus Canguaretama,BR-101, Km 160. S/N. - Areia Branca, 59190-000. <span></span></li>
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">lluizmatheus@gmail.com, wanda.rfwf2014@gmail.com, freitasanderson904@gmail.com</a></li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">baboonphotos@gmail.com</a></li>
 						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+55 84 991486554</li>
 					</ul>
 				</div>
@@ -295,7 +295,7 @@
 			</div>
 		
 			<div class="copy-right animated wow slideInUp" >
-				<p>W3layouts</p>
+				<p>&copy 2016 Catchy Carz. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</p>
 			</div>
 		</div>
 	</div>
