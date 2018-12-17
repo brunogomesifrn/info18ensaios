@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/locais_cadastro', function () {
+    return view('locais_cadastro');
+});
+
 
 Auth::routes();
 
