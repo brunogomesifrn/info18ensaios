@@ -43,7 +43,7 @@
 					<div class="clearfix"></div>
 		    <!--banner-info-->
 			<div class="banner-info">
-			  <h1><a href="index.html">Quer tirar as melhores <span class="logo-sub">Fotos?</span> </a></h1>
+			  <h1><a href="/">Quer tirar as melhores <span class="logo-sub">Fotos?</span> </a></h1>
 			    <h2><span>Aqui você encontra o lugar ideal!</span></h2>
 			       <form action="#" method="post">
 					<div class="search-two">
