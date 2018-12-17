@@ -32,59 +32,30 @@
 				  <!-- //header-left -->
 		             <div class="search-box">
 						<div id="sb-search" class="sb-search">
-							<form action="#" method="post">
-								<input name="search" class="sb-search-input" placeholder="Enter your search term..." type="search" id="search">
-								<input class="sb-search-submit" type="submit" value="">
-								<span class="sb-icon-search"> </span>
-							</form>
-						</div>
-						<!-- search-scripts -->
-						<script src="js/classie.js"></script>
-						<script src="js/uisearch.js"></script>
-							<script>
-								new UISearch( document.getElementById( 'sb-search' ) );
-							</script>
-						<!-- //search-scripts -->
-					    <ul>
 							
-							<li>
-							<a href="#" data-toggle="modal" data-target="#myModal4"><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Select Your Location</a></li>
+						</div>
+						
+					    <ul>
+	
 			
-							<li><button id="showRight" class="navig">Login </button>
+						
 							 <div class="cbp-spmenu-push">
 							<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
 								<h3>Login</h3>
 							<div class="login-inner">
 								<div class="login-top">
-								 <form action="#" method="post">
-									<input type="text" name="email" class="email" placeholder="Email" required=""/>
-									<input type="password" name="password" class="password" placeholder="Password" required=""/>	
-									<input type="checkbox" id="brand" value="">
-									<label for="brand"><span></span> Remember me</label>
-								</form>
 								<div class="login-bottom">
 									<ul>
-										<li>
-											<a href="#">Forgot password?</a>
-										</li>
-										<li>
-											<form action="#" method="post">
-												<input type="submit" value="LOGIN"/>
-											</form>
-										</li>
+										
 									</ul>
 									<div class="clearfix"></div>
 								</div>
 								<div class="clearfix"></div>
 													
 							</div>
-							<div class="social-icons">
-							<ul> 
-								<li><a href="#"><span class="icons"></span><span class="text">Facebook</span></a></li>
-								<li class="twt"><a href="#"><span class="icons"></span><span class="text">Twitter</span></a></li>
-								<li class="ggp"><a href="#"><span class="icons"></span><span class="text">Google+</span></a></li>
-							</ul> 
-						</div>		
+				
+							 
+					
 							</div> 
 							</nav>
 						</div> 
