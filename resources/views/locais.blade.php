@@ -187,7 +187,7 @@
 			<div class="footer-grids">
 				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".5s">
 					<h3>Sobre nós</h3>
-					<p>Desenvolvedores: Anderson Freitas, Luiz Matheus e Wanderleia Klécia. <span>Para qualquer dúvida, entre em contato conosco.</span></p>
+					<p>Desenvolvedores: Alisson Rodrigues, Anderson Freitas, Luiz Matheus e Wanderleia Klécia. <span>Para qualquer dúvida, entre em contato conosco.</span></p>
 				</div>
 				<div class="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".6s">
 					<h3>Contatos</h3>
