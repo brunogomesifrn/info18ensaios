@@ -30,7 +30,7 @@
 		             <div class="search-box">
 						<div id="sb-search" class="sb-search">
 							
-							<p><a href="/autenticacao">Login</a> <a href="/cadastro">Cadastro</a></p>
+							<p><a href="/autenticacao">Login</a> <a href="/cadastro">Cadastro </a></p>
 
 						</div>
 
@@ -44,11 +44,11 @@
 		    <!--banner-info-->
 			<div class="banner-info">
 			  <h1><a href="index.html">Quer tirar as melhores <span class="logo-sub">Fotos?</span> </a></h1>
-			    <h2><span>Aqui você encontra seu lugar ideal!</span></h2>
+			    <h2><span>Aqui você encontra o lugar ideal!</span></h2>
 			       <form action="#" method="post">
 					<div class="search-two">
 					<select id="country" onchange="change_country(this.value)" class="frm-field required">
-						<option value="null"><img src="images/rupee.png" alt=" " class="img-responsive" />Lugares</option>
+						<option value="null"><img src="images/rupee.png" alt=" " class="img-responsive" /> Lugares</option>
 
 							<option value="abt">Esportivos</option>
 							<option value="ac">Paisagem natural</option>
@@ -63,7 +63,7 @@
 					</select>
 				</div>
 
-					<input type="submit" value="Buscar" align="right">
+					<input type="submit" value="Buscar" align="left">
 					<div class="clearfix"></div>
 				</form>
 			</div>
