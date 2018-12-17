@@ -19,16 +19,120 @@
 </head>
 <body>
 
-<h1>Página Do Usuário</h1>
+<!--/banner-section-->
+		<div id="demo-1" class="banner-inner">
+	 <div class="banner-inner-dott">
+       <div class="header-top">
+		    <!-- /header-left -->
+		          <div class="header-left">
+				  
+					  <div class="tag"><a href="/espacos_cadastro"><span class="glyphicon glyphicon-tag"></span> Cadastrar novos locais </a></div>
+					  <div class="tag"><a href="/desconectar"><span class="glyphicon glyphicon-log-in"></span> Sign Up</a></div>
+					</div>
+				  <!-- //header-left -->
+		             <div class="search-box">
+						<div id="sb-search" class="sb-search">
+							<form action="#" method="post">
+								<input name="search" class="sb-search-input" placeholder="Enter your search term..." type="search" id="search">
+								<input class="sb-search-submit" type="submit" value="">
+								<span class="sb-icon-search"> </span>
+							</form>
+						</div>
+						<!-- search-scripts -->
+						<script src="js/classie.js"></script>
+						<script src="js/uisearch.js"></script>
+							<script>
+								new UISearch( document.getElementById( 'sb-search' ) );
+							</script>
+						<!-- //search-scripts -->
+					    <ul>
+							
+							<li>
+							<a href="#" data-toggle="modal" data-target="#myModal4"><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Select Your Location</a></li>
+			
+							<li><button id="showRight" class="navig">Login </button>
+							 <div class="cbp-spmenu-push">
+							<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+								<h3>Login</h3>
+							<div class="login-inner">
+								<div class="login-top">
+								 <form action="#" method="post">
+									<input type="text" name="email" class="email" placeholder="Email" required=""/>
+									<input type="password" name="password" class="password" placeholder="Password" required=""/>	
+									<input type="checkbox" id="brand" value="">
+									<label for="brand"><span></span> Remember me</label>
+								</form>
+								<div class="login-bottom">
+									<ul>
+										<li>
+											<a href="#">Forgot password?</a>
+										</li>
+										<li>
+											<form action="#" method="post">
+												<input type="submit" value="LOGIN"/>
+											</form>
+										</li>
+									</ul>
+									<div class="clearfix"></div>
+								</div>
+								<div class="clearfix"></div>
+													
+							</div>
+							<div class="social-icons">
+							<ul> 
+								<li><a href="#"><span class="icons"></span><span class="text">Facebook</span></a></li>
+								<li class="twt"><a href="#"><span class="icons"></span><span class="text">Twitter</span></a></li>
+								<li class="ggp"><a href="#"><span class="icons"></span><span class="text">Google+</span></a></li>
+							</ul> 
+						</div>		
+							</div> 
+							</nav>
+						</div> 
+					<script src="js/classie2.js"></script>
+						<script>
+							var menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+								showRight = document.getElementById( 'showRight' ),
+								body = document.body;
+				
+							showRight.onclick = function() {
+								classie.toggle( this, 'active' );
+								classie.toggle( menuRight, 'cbp-spmenu-open' );
+								disableOther( 'showRight' );
+							};
+				
+							function disableOther( button ) {
+								if( button !== 'showRight' ) {
+									classie.toggle( showRight, 'disabled' );
+								}
+							}
+						</script>
+						<!--Navigation from Right To Left-->
+						    </li>
+						</ul>
+						
+					</div>
+				   
+						
+					</div>
+					<div class="clearfix"></div>
+	<div class="banner-info">
+			  <h1><a href="index.html">Página <span class="logo-sub"> do Usuário</span> </a></h1>
+			    <h2><span>Olá {{Auth::user()->name}} </span> <span>! </span></h2>
+			     <h3><a href="/espacos">Meus Locais<a/></h3>
+				 <h3>Minhas Reservas</h3>
+				 <!--<h3>Meus dados pessoais</h3> -->
+			</div>
 
-<h3>Olá {{Auth::user()->name}}</h3>
-
-<p><a href="/espacos">Meus Locais<a/></p>
-<p>Minhas Reservas</p>
-<p>Meus dados pessoais</p>
+			</div>
+	 </div>
 
 
-<p><a href="/desconectar">Logout</a></p>
+
+
+
+
+
+<!-- <p><a href="/desconectar">Logout</a></p> -->
 
 <!-- footer -->
 	<div class="footer">
