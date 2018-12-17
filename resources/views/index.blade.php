@@ -30,7 +30,7 @@
 		             <div class="search-box">
 						<div id="sb-search" class="sb-search">
 							
-							<p><a href="/autenticacao">Login</a> <a href="/cadastro">Cadastro </a></p>
+							<p><a href="/autenticacao">Login</a> <a href="/cadastro">Cadastro- </a></p>
 
 						</div>
 
@@ -48,7 +48,7 @@
 			       <form action="#" method="post">
 					<div class="search-two">
 					<select id="country" onchange="change_country(this.value)" class="frm-field required">
-						<option value="null"><img src="images/rupee.png" alt=" " class="img-responsive" /> Lugares</option>
+						<option value="null"><img src="images/rupee.png" alt=" " class="img-responsive" /> -- Lugares</option>
 
 							<option value="abt">Esportivos</option>
 							<option value="ac">Paisagem natural</option>
@@ -75,7 +75,7 @@
 	<!--/featured_section-->
 	<div class="featured_section_w3l">
 		<div class="container">
-		      <h3 class="tittle">Lugares mais visitados:</h3>
+		      <h3 class="tittle">LUGARES MAIS VISITADOS:</h3>
 	               <div class="inner_tabs">
 		<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 						<ul id="myTab" class="nav nav-tabs" role="tablist">
